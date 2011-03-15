@@ -1,0 +1,27 @@
+
+<form method=get id=contactForm action=contant.jsp>
+	<div class=innerBox>
+		<p>
+			Two ways to contact us guys, either<br/>
+			<span class=contactBox>Mail us at: <a href="mailto:myname@telecom.ntua.gr">Mitsaras</a></span>
+		</p>
+		<p>... or fill in the following form:</p>
+		
+		<table class=contactBox border=0 cellspacing="6">
+		<tr>
+			<td>Name:</td>
+			<td><input type=text name=name size="20" /></td>
+		</tr>
+		<tr>
+			<td>Email:</td>
+			<td><input type=text name=email size="20" /></td>
+		</tr>
+		<tr>
+			<td colspan=2><textarea rows=7 cols=30>Write us your comments...</textarea></td>
+		</tr>
+		<tr>
+			<td colspan=2 align=center><button onclick="return submit_form();">Send!</button></td>
+		</tr>
+		</table>
+	</div>
+</form>
