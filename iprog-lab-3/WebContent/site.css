@@ -1,0 +1,91 @@
+/********
+
+  Cascading Style Sheets (CSS) file!
+
+********/
+body {
+	background: gray;
+	color: black;
+}
+
+p {
+	margin: 0px;
+	border: 0px;
+	padding: 4px;
+}
+
+.box {
+	border: 2px;
+	border-style: dashed;
+	border-color: red;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	background: #bbbbbb
+}
+
+.innerBox {
+	margin: 20px;
+	font-family: sans-serif;
+	font-size: medium;
+	font-style: italic;
+	text-align: left;
+}
+
+#header {
+	font-weight: bold;
+	font-size: large;
+	width: 95%;
+	text-align: center;
+	letter-spacing: 2px;
+	height: 80px;
+	white-space: pre;
+}
+
+#menu {
+	position: relative;
+	overflow: auto;
+	width: 15%;
+	height: 500px;
+}
+
+#menu ul {
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 1em;
+	text-indent: -1;
+}
+
+#menu ul li:before {
+	content: "~  ";
+}
+
+#menu ul li:hover {
+	background: gray;
+}
+
+#menu ul li {
+	margin: 0px;
+	border: 1px dashed;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#content {
+	width: 75%;
+	position: absolute;
+	left: 19%;
+	top: 114px;
+	height: 500px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.contactBox {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border: 1px dashed red;
+	margin-left: 50px;
+	display: block;
+}

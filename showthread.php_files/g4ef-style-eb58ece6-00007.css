@@ -1,0 +1,206 @@
+/*============================*\
+|| # Copyright Go4Expert.com  ||     
+|| # All Rights Reserved.     ||
+|| # http://www.go4expert.com ||
+\*============================*/
+
+form { margin: 0px; }
+label { cursor: default; }
+.normal { font-weight: normal; }
+.inlineimg { vertical-align: middle; }
+.underline { text-decoration: underline; }
+.vbmenu_hilite * { cursor: pointer; }
+
+/* Auto-clearing of floats */
+.floatcontainer:after, .block_row:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.floatcontainer, .block_row { display: inline-block; }
+
+/* IE-Mac hide \*/
+* html .floatcontainer, * html .block_row { height: 1%; }
+.floatcontainer, .block_row { display: block; }
+/* End IE-Mac hide */
+
+/* ---------------[ TreeView ]--------------- */ 
+ul.treeview_newsletter { margin: 0; padding: 0; list-style: none; }
+ul.treeview_newsletter li { margin: 0 5px 5px 21px; padding: 0px 0px 0px 0px; border-bottom: none; line-height: 180%; } 
+ul.treeview_newsletter li li { font-size: 100%; margin: 0 5px 2px 21px; display:inline; }
+ul.treeview_childforums { margin: 0; padding: 0; list-style: none url("http://i.g4estatic.com/misc/buld.gif"); }
+ul.treeview_childforums li img { position: relative; margin-left: -18px; margin-top: 5px; }
+ul.treeview_childforums li { margin: 0 5px 5px 21px; padding: 0px 0px 0px 0px; border-bottom: none; font-size: 80%; line-height: 180%; font-weight: bold; }
+ul.treeview_childforums li li { font-size: 100%; margin: 0 5px 2px 21px; }
+ul.treeview_childforums hr { padding: 0px 0px 0px 0px; background-color: #6B91BA; }
+/* ---------------[ /TreeView ]--------------- */ 
+
+/* ---------------[ Tabber ]--------------- */ 
+.tabberlive .tabbertabhide { border:0; display:none; } 
+.tabber { display:none; } 
+.tabberlive { } 
+ul.tabbernav { padding: 0 !important; height:18px; line-height:18px; border:2px solid #978686; border-bottom:0; margin: 0 !important; padding:0 !important; list-style-type:none !important; background: #978686; } 
+.tabbernav li { padding:0 !important; list-style-type:none; float:left !important; margin-right:1px !important; background: transparent !important; } 
+.tabbernav li a { float:left; display: block; padding: 0 5px; }
+.tabbernav li a:link { color: #FFFFFF; font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; padding: 3px 6px 3px 6px; white-space: nowrap; text-decoration: none; }
+.tabbernav li a:visited { color: #FFFFFF; text-decoration: none; }
+.tabbernav li a:hover { color: #FFFFFF; text-decoration: underline; }
+.tabbernav li.tabberactive a { background: #EDE7DB; color: #444; }
+.tabbernav li.tabberactive a:hover { background: #EDE7DB; color: #444; }
+.tabberlive .tabbertab { padding: 8px; background:#EDE7DB; border:0px solid #625454; }
+.tabberlive .tabbertab h3 { display:none; }
+.tabbertab ul { padding:0; margin:0;}
+.tabbertab ul li { font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; padding:7px 2px 7px 10px; border-bottom:1px solid #FDFDFD; } 
+/* ---------------[ /Tabber ]--------------- */
+
+body { background:#625454; color:#000; font:10pt tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; margin:0px; padding:0px }
+a:link, body_alink { color:#22229C }
+a:visited, body_avisited { color:#22229C }
+a:hover, a:active, body_ahover { color:#F40 }
+.page { background:#FFF; color:#000 }
+td, th, p, li { font:10pt tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif }
+.tborder { background:#E1D1D1; color:#000; border:1px solid #625454 }
+.tcat { background:#877 url(http://i.g4estatic.com/gradients/gradient_tcat.gif) repeat-x top left; color:#FFF; font:bold 10pt tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif }
+.tcat a:link, .tcat_alink { color:#fff; text-decoration:none }
+.tcat a:visited, .tcat_avisited { color:#fff; text-decoration:none }
+.tcat a:hover, .tcat a:active, .tcat_ahover { color:#FF6; text-decoration:none }
+.thead { background:#978989 url(http://i.g4estatic.com/gradients/gradient_thead.gif) repeat-x top left; color:#FFF; font:bold 11px tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif }
+.thead a:link, .thead_alink { color:#FFF }
+.thead a:visited, .thead_avisited { color:#FFF }
+.thead a:hover, .thead a:active, .thead_ahover { color:#FF0 }
+.tfoot { background:#625454; color:#EDE7DB }
+.tfoot a:link, .tfoot_alink { color:#EDE7DB }
+.tfoot a:visited, .tfoot_avisited { color:#EDE7DB }
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover { color:#FF6 }
+.alt1, .alt1Active { background:#FDFDFD; color:#000 }
+.alt2, .alt2Active { background:#EDE7DB; color:#000 }
+.inlinemod { background:#FFC; color:#000 }
+.wysiwyg { background:#F5F5FF; color:#000; font:10pt tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif }
+textarea, .bginput { font:10pt tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif }
+.bginput option, .bginput optgroup { font-size:10pt; font-family:tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif }
+.button { font:11px tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif }
+select { font:11px tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif }
+option, optgroup { font-size:11px; font-family:tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif }
+.smallfont { font:11px tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif }
+.time { color:#666686 }
+.navbar { font:11px tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif }
+.highlight { color:#F00; font-weight:bold }
+.fjsel { background:#3E5C92; color:#E0E0F6 }
+.fjdpth0 { background:#F7F7F7; color:#000 }
+.panel { background:#EDE7DB; color:#000; padding:10px; border:2px outset }
+.panelsurround { background:#DFDADA; color:#000 }
+legend { color:#22229C; font:11px tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif }
+.vbmenu_control { background:#978686; color:#FFF; font:bold 11px tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; padding:3px 6px 3px 6px; white-space:nowrap }
+.vbmenu_control a:link, .vbmenu_control_alink { color:#FFF; text-decoration:none }
+.vbmenu_control a:visited, .vbmenu_control_avisited { color:#FFF; text-decoration:none }
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover { color:#FFF; text-decoration:underline }
+.vbmenu_popup { background:#FFF; color:#000; border:1px solid #625454 }
+.vbmenu_option { background:#EDE7DB; color:#000; font:11px tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; white-space:nowrap; cursor:pointer }
+.vbmenu_option a:link, .vbmenu_option_alink { color:#22229C; text-decoration:none }
+.vbmenu_option a:visited, .vbmenu_option_avisited { color:#22229C; text-decoration:none }
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover { color:#22229C; text-decoration:none }
+.vbmenu_hilite { background:#AFA2A2; color:#FFF; font:11px tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif; white-space:nowrap; cursor:pointer }
+.vbmenu_hilite a:link, .vbmenu_hilite_alink { color:#FFF; text-decoration:none }
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited { color:#FFF; text-decoration:none }
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover { color:#FFF; text-decoration:none }
+
+/* ***** Adbox in Articles ***** */
+.AdBox{ border: 0px solid #625454; color: #333333; clear: both; overflow: hidden; width: 302px; height: 265px; float: right; margin: 0px 0px 0px 10px; }
+.AdAuthor { position:absolute; top:459px; right:31px; }
+.AdAuthorLoading { width:300px; height:250px; text-align:center; padding-top:10px; border:0px solid #654242; }
+/* ***** Ad Near Logo ***** */
+#AdLogo { margin-left:260px; position:absolute; top:25px; right:10px; }
+
+/* ***** Body Div to show topadbar ***** */
+.body { background: #625454; color: #000000; margin: 5px 10px 10px 10px; padding: 0px; }
+
+/* ***** Showing images to be borderless ***** */
+img { border: 0 none #FFFFFF;}
+
+/* ***** Giving better titles to posts ***** */
+h2 { FONT-WEIGHT: Bolder; DISPLAY: inline;font-size: 8pt;}
+
+/* ***** Giving better titles to Articles ***** */
+h1 { FONT-WEIGHT: NORMAL; DISPLAY: inline;font-size: 16pt; color:#3D537D}
+
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, div.thead { padding: 4px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+
+/* ***** don't change the following ***** */
+form { display: inline; }
+label { cursor: default; }
+.normal { font-weight: normal; }
+.inlineimg { vertical-align: middle; }
+.activitymessage { BACKGROUND-COLOR: #FEE0CA;border: 1px solid #0B198C; 
+padding: 8px; text-align: center; }
+.AuthorBox{ background: #EDE7DB; border:1px solid #654242; color:#333333; margin:15px 0px 15px 15px; clear: both; overflow: hidden; width: 300px; float:right; }
+.AuthorToolbox { padding:7px 10px 15px 10px; }
+/***** * For COMMENT BB CODE * *****/
+.comment { BACKGROUND-COLOR: #EEEEEE; border: 1px solid #625454;padding: 8px;}
+
+/***** * Custom display of the Author Name * *****/
+h4 { font-weight: bold; font-size: small;}
+
+/***** * Copyright notice at the bottom * *****/
+.copyright { font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; color: #FDFDFD; }
+
+/***** * Displaying the search box at the top of all pages * *****/
+.headersearch { color: #FDFDFD; background: #625454 url(http://i.g4estatic.com/misc/searchbk.jpg) no-repeat center; text-align:center; PADDING-TOP: 12px; PADDING-BOTTOM: 8px; margin-top: 3px; padding-left:102px; }
+.headersearch a:link { color: #FFFFFF; text-decoration: none; }
+.headersearch a:visited { color: #FFFFFF; text-decoration: none; }
+.headersearch a:hover, .headersearch a:active { color: #FFFF66; text-decoration: none; }
+#search input.tbox { width: 225px; }
+.smallfontheader { font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; color: white; text-align: right;}
+.smallfontheader a:link { color: #FFFFFF; text-decoration: none;}
+.smallfontheader a:visited { color: #FFFFFF; text-decoration: none;}
+.smallfontheader a:hover, .smallfontheader a:active { color: #FFFF66; text-decoration: none;}
+
+/* ***** styling for heading in the articles ***** */
+.articleheading { color: #646464; font-weight: bold; font-size: 14pt; }
+
+.icons { border:0px solid #625454; margin:5px 0px 0px 0px; padding:0px; overflow: hidden; float: right; }
+.user_05 {color: #444444;}
+.user_banned {color: #992222;}
+.navbar_notice { background: #f6c298; border: 2px dashed #625454; margin: 5px 0px; padding: 2px; }
+#topadbar{ background: #ffc; border-bottom: 1px solid #f2e389; text-align: center; height:20px; line-height:19px; margin-bottom:5px}
+#adbar{ width: auto; margin: 0 auto;}
+textarea.code{font-size: 11px;line-height: 16px;}
+
+#navheader h1 { font-size: 10pt; font-weight:bold; color: #000000; }
+.ciw-rss-box { width: 780px; Height: 120px; overflow:hidden; }
+.ciw-rss-items { margin-top:0px; padding:0.5em; 0.5em; margin-left:0px; }
+p.ciw-rss-title {padding:0.5em;}
+.ciw-rss-title { text-decoration: none; font-weight:bold; margin: 0px; text-align: left; }
+.ciw-rss-desc { text-decoration: none; margin: 0px; text-align: left; }
+.ciw-rss-item { width: 375px; height: 20px; float:left; list-style:none; text-align: left; }
+.alt1 h3, .post h3 { display:inline; }
+.page-sub-heading {margin:10px 0px;padding:0px;font-weight:bold;font-size:1.5em;}
+
+/* ---------------[ Social Links ]--------------- */ 
+#afterpostcontrols h3 {font-size:1.4em; font-weight:bold; padding:2px; text-align:left;}
+#afterpostcontrols_addthis_toolbox  { display:block; }
+#afterpostcontrols_addthis_toolbox ul#sharingiscaring li { float: left; margin: 0 7px 0 0; opacity: .7; width: 50px; height: 50px; display:block; overflow: hidden; }
+#afterpostcontrols_addthis_toolbox ul#sharingiscaring {height:50px;}
+#afterpostcontrols_addthis_toolbox ul#sharingiscaring li.horizbtn { height:35px; padding-top:15px;width: auto;}
+#afterpostcontrols_addthis_toolbox ul#sharingiscaring li a { display: block; width: auto; height: 50px; }
+#afterpostcontrols_addthis_toolbox ul#sharingiscaring li a#facebook { background: url('http://i.g4estatic.com/misc/social-links.png') 0 -300px no-repeat; }
+#afterpostcontrols_addthis_toolbox ul#sharingiscaring li a#twitter { background: url('http://i.g4estatic.com/misc/social-links.png') 0 0 no-repeat; }
+#afterpostcontrols_addthis_toolbox ul#sharingiscaring li a#digg { background: url('http://i.g4estatic.com/misc/social-links.png') 0 -100px no-repeat; }
+#afterpostcontrols_addthis_toolbox ul#sharingiscaring li a#stumbleupon { background: url('http://i.g4estatic.com/misc/social-links.png') 0 -250px no-repeat; }
+#afterpostcontrols_addthis_toolbox ul#sharingiscaring li a#delicious { background: url('http://i.g4estatic.com/misc/social-links.png') 0 -50px no-repeat; }
+#afterpostcontrols_addthis_toolbox ul#sharingiscaring li a#technorati { background: url('http://i.g4estatic.com/misc/social-links.png') 0 -200px no-repeat; }
+#afterpostcontrols_addthis_toolbox ul#sharingiscaring li a#reddit { background: url('http://i.g4estatic.com/misc/social-links.png') 0 -150px no-repeat; }
+#afterpostcontrols_addthis_toolbox ul#sharingiscaring li a#myspace { background: url('http://i.g4estatic.com/misc/social-links.png') 0 -350px no-repeat; }
+#afterpostcontrols_addthis_toolbox ul#sharingiscaring li a#linkedin { background: url('http://i.g4estatic.com/misc/social-links.png') 0 -400px no-repeat; }
+#afterpostcontrols_addthis_toolbox ul#sharingiscaring li:hover { opacity: 1; margin-top: 3px; margin-bottom: -3px; }
+/* ---------------[ /Social Links ]--------------- */ 
+
+.similar_threads { padding:5px 10px;background:none repeat scroll 0 0 #FFF8E7; }
+.similar_threads li {line-height:2em;}

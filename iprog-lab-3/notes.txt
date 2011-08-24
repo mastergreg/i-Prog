@@ -1,0 +1,57 @@
+
+
+Things to note:
+--------------
+
+	Ajax
+	----
+		Ajax is javascript (client side). The API is in 'code.js' and is mainly used in the menu in 'index.jsp'.
+		
+	Login/Logout
+	------------
+		The following are implemented:
+		
+		When not loged in:
+			+ index.jsp	:	check if there's a cookie with a username and auto-login the client.
+			+ home.jsp	:	show a login link pointing at index.jsp (with a proper GET parameter).
+			  index.jsp	:	when the 'login' GET parameter is present, show a login form in the content box.
+			  				The form points to the LoginService servlet
+			  LoginService	:	this is a servlet which (a) logs in the client (by adding a username in the session),
+			  					(b) sends a cookie to the user and (c) redirects to 'index.jsp'
+		
+		When logged in:
+			+ home.jsp	:	shows a logout link pointing to logout.jsp
+			  logout.jsp:	clears the session, clears the username from the cookie and redirects to index.jsp.
+			  
+	MySQL & Products
+	----------------
+		products.html	:	this shows a form with name & price selections. They can be left empty so as to print all DB contents.
+							The form points to index.jsp with a 'search' GET parameter.
+		index.jsp		:	When 'search' parameter is detected the 'search.jsp' is included inside the content box.
+		search.jsp		:	forms a proper query for the database (depending on which form fields are filled) and shows the results.
+
+
+Connector/J:
+-----------
+   download from: http://mysql.com/downloads/connector/j/
+   put mysql-connector-java-5.1.12-bin.jar in: <apache-tomcat-installation-dir>/common/lib
+
+
+
+DB creation:
+-----------
+  (first install MySQL!)
+  do the following:
+   
+  mysql> create database productsdb;
+  mysql> use productsdb;
+  mysql> create table products (name varchar(255), descr varchar(255), price int);
+  mysql> insert into products values ('foo', 'bar', 10);
+  
+  (repeat the last line as many times u want - with different values).
+
+
+Related Tutorials:
+  http://java.sun.com/docs/books/tutorial/jdbc/overview/index.html
+
+
